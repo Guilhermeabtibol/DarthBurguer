@@ -16,8 +16,7 @@ export const BurgersController = {
             });
         }
 
-        const burger = Burgergit add .
-Service.create({ name, price, ingredients });
+        const burger = BurgerService.create({ name, price, ingredients });
         return res.status(201).json(burger);
     }
 };
